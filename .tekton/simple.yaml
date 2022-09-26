@@ -47,7 +47,7 @@ spec:
                #!/usr/bin/env bash
                printf 'log line 1\n'
                printf 'log line 2\n'
-               printf ' log line3\n'
+               printf 'log line3\n'
                printf 'no more logs\n'
                RESULT=$(cat $(workspaces.source.path)/success.txt);
                exit $([ $RESULT == "true" ])
